@@ -26,5 +26,6 @@ const apply = () => {
 const reset = () => {
   // Nollställer fältet.
   local.value = 0
+  apply()
 }
 </script>
